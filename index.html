@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by Ryan Hoffman</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- This is my comment section. I took decent notes on paper so hopefully I'll be able to translate them to HTML with ease.-->
+  <!-- The first thing is to structure correctly then fill in the content.-->
+  <!-- I just learned that, when using these comment tags, you have to close it with 2 dashes then the angle bracket. -->
+  <!-- Just as Andy suggests, I'm going to group my lessons and main ideas of each lesson into separate divs.-->
+  <div id="header">
+    Ryan's IPND Notes
+  </div>
+  <div>
+    <h2>
+      <b><em>Lesson 1.1: Intro to Programming</em></b>
+    </h2>
+      <div class= "more">
+        <p>
+          <b><u>What is Coding?</u></b>
+        </p>
+        <p>
+          Coding is telling a computer what you want it to do in a way it can read and understand.
+        </p>
+        <p>
+          <em>What I Will Do:</em>
+        </p>
+          <ul>
+            <li>Build a Webpage & Put it Online</li>
+            <li>Write code to automatically write emails</li>
+            <li>Assemble a large program by using existing code written by others as "pieces"</li>
+          </ul>
+        <p>
+          <em>What I can Do After:</em>
+        </p>
+          <ul>
+            <li>Make an informed decision about what steps to take next</li>
+            <li>Converse deeply about computer science & programming comfotably</li>
+            <li>Explain big ideas in programming(How the internet works, how a program runs, etc..)</li>
+            <li>Use programming to automate my own life</li>
+          </ul>
+      </div>
+      <div class= "more">
+        <p>
+          <b><u>Think Like a Programmer</u></b>
+        </p>
+        <p>
+          The 5 Ways of Thinking:
+        </p>
+          <ul>
+            <li>Procedural</li>
+            <li>Abstract</li>
+            <li>Systematic Debugging</li>
+            <li>Technological Empathy</li>
+            <li>Systems Thinking</li>
+          </ul>
+      </div>
+      <div class= "more">
+        <p>
+          <u><b>Unit 1: Basics of the Web</b></u>
+        </p>
+          <ul>
+            <li>The Web</li>
+            <li>HTML</li>
+            <li>HTTP</li>
+            <li>Web Applications
+          </ul>
+        <p>
+          Q: What is the World Wide Web?
+        </p>
+        <p>
+          A: It's a collection of HTML documents
+        </p>
+        <p>
+          Q: What is HTML?
+        </p>
+        <p>
+          A: HTML stands for Hyper Text Markup Language. It's the <b>MAIN</b> doctype on the web.
+        </p>
+        <p>
+          The Major Pieces are:
+        </p>
+          <ul>
+            <li>You and your computer and browser</li>
+            <li>The Internet</li>
+            <li>Servers</li>
+          </ul>
+        <p>
+          Your browser makes requests, via the internet, to servers and the servers then respond with files that your browser is able to display.
+        </p>
+      </div>
+      <div class= "more">
+        <p>
+          <b>HTML</b>
+        </p>
+        <p>
+          Made up of:
+        </p>
+          <ul>
+            <li>Text Content (What you see)</li>
+            <li>Markup (What it looks like)</li>
+            <li>Refrences to other documents (images & videos)</li>
+            <li>Links to other pages</li>
+          </ul>
+        <p>
+          <b>HTML Markup</b>
+        </p>
+        <p>
+          Made up of things called "tags".
+        </p>
+<!-- Trying to put an example (like the one from the notes of an element) is not easy because it keeps getting interpreted by this. -->
+<!-- I found a forum that suggested using "&lt" and "&gt"-->
+          Example: &lt;name&gt;Content&lt;/name&gt;
+          <pre>            ↑              ↑</pre>
+          <br>
+          <pre>         Opening Tag Closing Tag</pre>
+        <p>
+          b tag is for <b>bold</b>
+        </p>
+        <p>
+          em tag is for <em>italics</em>
+        </p>
+        <p>
+          <b>HTML Attributes</b>
+        </p>
+        <p>
+          Example: <b>&lt;tag attribute="value"&gt;Content&lt;/tag&gt;</b>
+        </p>
+        <p>
+          Anchor tag: &lt;a&gt; is used for making links
+        </p>
+        <p>
+          Example: If you click <em><a href="https://www.udacity.com">HERE</a></em> it will take you directly to Udacity.com.
+        </p>
+        <p>
+          <b>Image tag</b>
+        </p>
+        <p>
+          &lt;img&gt;
+        </p>
+        <p>
+          Example: &lt;img src="url" alt="text"&gt;
+        </p>
+        <p>
+          <b>Inline & Block Tags</b>
+        </p>
+        <p>
+          <u>Span & Div</u>
+        </p>
+        <p>
+          Just know that span is inline & div is block
+        </p>
+        <p>
+          This <a href="https://youtu.be/bOh9WjucNsA">Video</a> helped explain Inline and Block elements.
+        </p>
+        <p>
+          Below is what a <b>complete</b> HTML document structure looks like.
+        </p>
+          <p>
+            &lt;!DOCTYPE html&gt;
+            <br> &lt;html&gt;
+            <br> &lt;head&gt;
+            <br> &lt;title&gt;TITLE!&lt;/title&gt;
+            <br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;b&gt;CONTENT&lt;b&gt;
+            <br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+          </p>
+      </div>
+  </div>
+  <div>
+    <h2>
+      <b><em>Lesson 1.2: Creating a Structured Document</em></b>
+    </h2>
+      <div class= "more">
+        <p>
+          <b>This lesson didn't offer much for notes so below are some key things to remember:</b>
+        </p>
+        How are Documents Structured?:
+        <ul>
+          <li>Elements have a parent-child relationship. 
+          <li>The Document Object Model (also known as DOM) sets the HTML elements in a “tree-like” structure where one element can contain other elements. This allows a programmer to navigate to any element in the document more easily.
+        </ul>
+        <ul>
+          <li>HTML has a "Tree-Like" Structure</li>
+          <li>Boxes to HTML using div tags</li>
+          <li>It's important to use a text editor like Sublime to write html</li>
+        </ul>
+      </div>
+  </div>
+  <div>
+    <h2>
+      <b><em>Lesson 1.3: Adding CSS Style & HTML Structure</em></b>
+    </h2>
+      <div class= "more">
+        <p>
+          <b>Things to remember about why we use CSS:</b>
+        </p>
+          The Importance of Avoiding Repetition:
+          <ul>
+            <li>Can programmers save time? A: Yes.</li> 
+            <li>Can programmers avoid copy and paste errors and other syntactic mistakes? A: Yes.</li>
+            <li>Can programmers develop their code more efficiently? A: Yes.</li>
+            <li>Can programmers maintain their code more effectively? A: Yes.</li>
+            <li>Avoid Repitition</li>
+            <li>Save Time</li>
+            <li>Write Less Code</li>
+            <li>Help Other to Read the Code</li>
+            <li>Reduce Errors</li>
+          </ul>
+        <p>
+          <b>CSS</b> = Casscading Style Sheets. A key feature of CSS is what's known as "inheritance". This means it relies on an ancestor-descendent relationship. Each nested element receives its' parent color, font, etc...
+        </p>
+        <p>
+          You can have several CSS files (or sheets) that will be referenced in HTML and all of them will be used to find out the final and visible style for your page. Think of it in terms of laws. With CSS, the most specific rule is applied to every element That's where the word cascading comes from in CSS.This requires Abstract Thinking and the ability to find similarities. 
+        </p>
+        <p>
+          <b>What is CSS?</b>
+        </p>
+        <p>
+          CSS is code written to control the STYLE of html elements. 
+        </p>
+        <p>
+          <b>How does CSS control html?</b>
+        </p>
+        <p>
+          If, for example, you want to make all the &lt;h1&gt; have a black background with white text, you would write: 'h1 {
+          background-color: black; color: white;<br>
+          }'
+        </p>
+        <br>
+          h1 is called a "selector" and it tells the browser to apply the following rules to every h1 element. Everything between the curly braces is a rule.
+        <p>
+          In CSS you first write a selector. This defines what elements of a page this style will apply to. You can select an html tag and that rule will apply to the same tags on the page. 
+        </p>
+        <p>
+          <b>There are 3 ways to include CSS Styling:</b>
+        </p>
+          <ol>
+            <li>Write CSS in the &lt;head&gt; of hte html. This is only good for small projects.</li>
+            <li>Link your html to a separate CSS file</li>
+              <li>
+                <ul>
+                  <li>Helps stay organized on larger projects</li>
+                </ul>
+              </li>
+              <li>
+              To do this you would write all the structural html in one file and call it main.html or similar. In a separate file, put all the CSS code and call that main.css or similar. In the head element of the html document you add a link to your main.css. EX: &lt;link rel="stylesheet" href="main.css"&gt;
+            </li>
+            <li>Write the style inline with html</li>
+              <li>
+                <ul>
+                  <li>
+                    This is generally a bad idea because there is lots of repeated code
+                  </li>
+                </ul>
+              </li>
+              <li>
+                With this method, you modify the style attributes of every individul element.
+              </li>
+          </ol>
+      </div>
+      <div class= "more">
+        <p>
+          <b>Coding Style</b>
+        </p>
+        <p>
+          Why is <em>style</em> important?
+          <ol>
+            <li>Write code more efficiently</li>
+            <li>Understand code better</li>
+            <li>Communicate with others in a common language</li>
+          </ol>
+          This all leads to INCREASED PRODUCTIVITY!
+        <p>
+          Things to remember:
+          <ul>
+            <li>Double quotes are recommended over single quotes</li>
+            <li>use lowercase as much as possible</li>
+            <li>try to maintain 1 attribute and 1 value per line</li>
+            <li>stay consistent with your style</li>
+            <li>Indent appropriately</li>
+          </ul>
+      </div>
+      <div class= "more">
+        <p>
+          <b>4 Main Points of Box Sizing</b>
+          <ol>
+            <li>HTML elements are boxes and each box has 4 components.</li>
+            <li>Because there are so many components to each box it can be hard to get the size of the box just right.</li>
+            <li>There are 2 techniques you can use to help deal with sizing issues:</li>
+              <li>
+                <ol>
+                  <li>Set the size in % rather than px</li>
+                  <li>Set the box-sizing attribute to border-box for every element</li>
+                </ol>
+              </li>
+            <li>Different browsers work slightly differently. Sometimes this causes different browsers to display the same code differently</li>
+          </ol>
+        <p>
+          <b>Box Positioning</b>
+          <ol>
+            <li>DIVs are block elements so, by default, they take up the entire width of a page.</li>
+            <li>Adding the rule <code>display: flex;</code> to the appropreaite CSS will override this behavior and let DIVs appear next to eachother.</li>
+          </ol>
+      </div>
+      <div class= "more">
+        <p>
+          <b>Code, Test, Refine</b>
+          <ol>
+            <li>Look for natural boxes</li>
+            <li>Look for repeated styles and semantic elements</li>
+            <li>Write your html</li>
+            <li>Apply Style (from BIGGEST to smallest)</li>
+            <li>Fix things</li>
+          </ol>
+      </div>
+  </div>
+  <div>
+    <p>
+      <b><em>Lesson 2</em></b>
+    </p>
+    <div>
+      <p>
+        <b>The Variable</b>
+      </p>
+      <p>
+        <ol>
+          <li>What is a Variable?</li>
+          <li>What does it mean to assign a value to a varible?</li>
+          <li>What is the difference between what the equals = means in math vs programming. What's the difference between this: 2 + 3 = 5 and this: my_variable= 5 </li>
+        </ol>
+    </div>
+  </div>
+</body>
+</html>

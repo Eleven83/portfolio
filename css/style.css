@@ -1,15 +1,19 @@
-/* My first attempt at adding some CSS to my notes web page. */
+/* My first attempt at adding some CSS to my web page. */
 body{
-	background-color: #00663D;
+	background-color: #1f553f;
 }
 #header {
 	text-align: center;
 	font-size: 3.9em;
-	font-family: courier;
+	font-family: arial;
+	color: #FFFFFF;
 }
 div {
-	background-color: white;
+	background-color: rgb(27, 24, 24);
 	font-family: helvetica;
+}
+.lessons {
+	color: #FFFFFF;
 }
 .more {
 	border: 10px solid red;
@@ -21,4 +25,7 @@ div {
 	color: #FFFFFF
 }
 
-
+.logo::before, ::after {
+	content: "";
+	box-sizing: border-box;
+}

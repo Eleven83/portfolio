@@ -30,3 +30,6 @@ div {
 	content: "";
 	box-sizing: border-box;
 }
+#mypic {
+	border: 5px solid #81cae7;
+}

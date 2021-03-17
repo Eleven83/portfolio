@@ -15,6 +15,12 @@ div {
 .lessons {
 	color: #FFFFFF;
 }
+.menu {
+	text-align: center;
+	font-size: 3.9em;
+	font-family: arial;
+	color: #FFFFFF;
+}
 .more {
 	border: 10px solid red;
 	border-radius: 40px;

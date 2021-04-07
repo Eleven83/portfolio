@@ -1,41 +1,22 @@
-/* My first attempt at adding some CSS to my web page. */
-body{
-	background-color: #1f553f;
-}
-#header {
-	text-align: center;
-	font-size: 3.9em;
-	font-family: arial;
-	color: #FFFFFF;
-}
-div {
-	background-color: rgb(27, 24, 24);
-	font-family: helvetica;
-}
-.lessons {
-	color: #FFFFFF;
-}
-.menu {
-	text-align: center;
-	font-size: 3.9em;
-	font-family: arial;
-	color: #FFFFFF;
-}
-.more {
-	border: 10px solid red;
-	border-radius: 40px;
-	padding-left: 12px;
-	background-color: #339966;
-	width: 80%;
+body {
+	font-family: 'Roboto', sans-serif;
+	background-image: url("../images/background_2.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 	margin: auto;
-	margin-bottom: 1%;
-	color: #FFFFFF
 }
 
-.logo::before, ::after {
-	content: "";
-	box-sizing: border-box;
+.intro {
+	text-align: left;
+	padding: 22px;
 }
-#mypic {
-	border: 5px solid #81cae7;
+
+img {
+	border-radius: 50%;
 }
+/* .topnav {
+	background-color: black;
+	overflow: hidden;
+} */

@@ -1,22 +1,173 @@
-body {
-	font-family: 'Roboto', sans-serif;
-	/* background-image: url("../images/background_2.png"); */
-	/* background-attachment: fixed;
+/* Global styles
+------------------------------------*/
+html {
+	box-sizing: border-box;
+  }
+  *, *:before, *:after {
+	box-sizing: inherit;
+  }
+  
+  body {
+	color: #343434;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+  }
+  img {
+	width: 300px;
+  }
+  a {
+	color: #FFE66D;
+  }
+  a:hover {
+	text-decoration: none;
+  }
+  h1, h2 {
+	font-family: 'Roboto';
+	font-weight: 400;
+	margin: 0;
+  }
+  h1 {
+	font-size: 100px;
+	line-height: 1;
+  }
+  h2 {
+	font-size: 45px;
+  }
+  
+  .content-wrap {
+	max-width: 800px;
+	width: 85%;
+	margin: 0 auto;
+	padding: 60px 0;
+  }
+  .item-details h3 {
+	margin-bottom: 0;
+  }
+  .item-details h3 + p {
+	font-style: italic;
+  }
+  .item-details h3 ~ p {
+	margin: 0;
+  }
+  .divider > section {
+	overflow: hidden;
+	border-bottom: 1px dashed #343434;
+	padding: 25px 0;
+  }
+  .divider > section:last-of-type {
+	border: none;
+  }
+  
+  
+  /* Profile
+  ------------------------------------*/
+  header {
+	background: #fcfcfc;
+	color: #4d515f;
+  }
+  
+  
+  /* Projects
+  ------------------------------------*/
+  .projects {
+	background: #F7FFF7;
+  }
+  .projects a {
+	color: #2F3061;
+  }
+  .projects .btn {
+	background: #2F3061;
+	color: #F7FFF7;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+  }
+  .projects .btn:hover {
+	background: rgba(47,48,97,80%);
+  }
+  .project-item h3 {
+	margin-top: 0;
+  }
+  
+  
+  
+  /* Work Experience
+  ------------------------------------*/
+  .work-experience {
+	background: #A1C6D7;
+  }
+  
+  
+  
+  /* Education
+  ------------------------------------*/
+  .education {
+	background-image: url(../images/lucas-ludwig-L9376wwcWQQ-unsplash.jpg);
 	background-position: center;
 	background-size: cover;
-	background-repeat: no-repeat; */
-	margin: auto;
-}
-
-.intro {
-	text-align: left;
-	padding: 22px;
-}
-
-img {
-	border-radius: 50%;
-}
-/* .topnav {
-	background-color: black;
-	overflow: hidden;
-} */
+	padding-bottom: 100px;
+  }
+  .education p {
+	width: 60%;
+  }
+  
+  
+  /* Contact Info
+  ------------------------------------*/
+  footer {
+	background: #6d6868;
+	color: #F7FFF7;
+  }
+  .contact-list {
+	list-style-type: none;
+	padding: 0;
+  }
+  .contact-list a {
+	padding: 5px;
+	display: inline-block;
+  }
+  
+  
+  /* Responsive
+  ------------------------------------*/
+  @media screen and (min-width: 750px) {
+  
+	header, footer {
+	  text-align: center;
+	}
+  
+	.project-item img {
+	  float: left;
+	  margin-right: 20px;
+	}
+  
+	.job-item {
+	  display: grid;
+	  grid-template-columns: 1fr 2fr;
+	  column-gap: 20px;
+	}
+  
+	.contact-list {
+	  display: flex;
+	  justify-content: center;
+	}
+	.contact-list a {
+	  padding: 15px;
+	}
+  }
+  
+  @media screen and (max-width: 749px) {
+	h1 {
+	  font-size: 75px;
+	  line-height: 0.9;
+	  margin-bottom: 20px;
+	}
+	h2 {
+	  line-height: 1;
+	}
+  }
+  

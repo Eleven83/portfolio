@@ -54,7 +54,6 @@ html {
   }
   .divider > section {
 	overflow: hidden;
-	border-bottom: 1px dashed #343434;
 	padding: 25px 0;
   }
   .divider > section:last-of-type {
@@ -65,15 +64,15 @@ html {
   /* Profile
   ------------------------------------*/
   header {
-	background: #fcfcfc;
-	color: #4d515f;
+	background: #9fbba5;
+	color: #000000;
   }
   
   
   /* Projects
   ------------------------------------*/
   .projects {
-	background: #F7FFF7;
+	background: #FFFFFF;
   }
   .projects a {
 	color: #2F3061;
@@ -98,7 +97,7 @@ html {
   /* Work Experience
   ------------------------------------*/
   .work-experience {
-	background: #A1C6D7;
+	background: #9fbba5;
   }
   
   
@@ -119,17 +118,17 @@ html {
   /* Contact Info
   ------------------------------------*/
   footer {
-	background: #6d6868;
-	color: #F7FFF7;
+	background: #FFFFFF;
+	color: #0a0a0a;
   }
   .contact-list {
 	list-style-type: none;
 	padding: 0;
   }
-  .contact-list a {
+  /* .contact-list a {
 	padding: 5px;
 	display: inline-block;
-  }
+  } */
   
   
   /* Responsive
@@ -154,9 +153,6 @@ html {
 	.contact-list {
 	  display: flex;
 	  justify-content: center;
-	}
-	.contact-list a {
-	  padding: 15px;
 	}
   }
   
